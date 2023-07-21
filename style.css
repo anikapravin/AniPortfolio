@@ -1,0 +1,157 @@
+body {
+	background: radial-gradient(  rgb(95, 190, 237), #b662c4);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;
+
+	height: 100vh;
+   
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+  h1 {
+    display:block;
+    font-family: arial, sans-serif;
+    font-style: bold;
+  font-size: 10;
+    padding-top: 5%;
+ text-align: center;
+color:white;
+}
+h2{
+    display:block;
+    font-family: canto;
+  font-size: 30px;
+  font-weight: 50;
+  margin: 4%;
+  padding-top: 0px;
+ text-align: left;
+color:#ffffff;
+
+}
+h3{
+    display:block;
+    font-family:canto ;
+  font-weight: 50;
+  padding-top: 1%;
+
+  font-size: 25px;
+ text-align: left;
+color:rgb(97, 23, 158);
+}
+@font-face {
+    font-family: canto;
+    src: url(CantoBrush-Light.ttf);
+    
+
+  }
+.flex-container{
+    display: flex;
+padding-top: 0px;
+padding: 2px;
+margin-top: 0px;
+justify-content: space-around;
+align-items:center ;
+    flex-direction: row;
+   
+}
+.flex-container > div {
+    border-color: white;
+ 
+
+    
+  }
+
+
+
+.hov:hover{
+  background: url("hover.png") no-repeat;
+  z-index: 2;
+  background-size: 100%;
+}
+.responsive2:hover{
+  background: url("girl7.png") no-repeat;
+  z-index: 2;
+  background-size: 100%;
+}
+li {
+  float: right;
+  text-decoration: none;
+  font-family:canto ;
+
+  padding: 1px 16px;
+
+font-size: 29px;
+text-align: left;
+color:rgb(97, 23, 158);
+}
+
+li a {
+  display: block;
+  color: white;
+
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:canto ;
+
+
+
+font-size: 27px;
+text-align: left;
+color:rgb(97, 23, 158);
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+  margin-bottom:0px ;
+
+
+font-size: 25px;
+
+color:rgb(97, 23, 158);
+}
+@media (max-width: 1300px) {
+  .flex-container {
+    flex-direction: row;
+    justify-content: center;
+   
+  }
+.flex-container>div{
+  width: fit-content;
+}
+    
+}
+@media (max-width: 1100px) {
+
+.responsive{
+  height: 250px;
+}
+
+}
+
+@media (max-width: 800px) {
+ 
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .responsive{
+    height: 320px;
+  }
+ 
+}
