@@ -155,3 +155,16 @@ color:rgb(97, 23, 158);
   }
  
 }
+
+@media (max-width: 400px) {
+ 
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .responsive{
+    height: 320px;
+  }
+ 
+}
