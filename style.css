@@ -153,21 +153,8 @@ color:rgb(97, 23, 158);
     flex-wrap: wrap;
   }
   .responsive{
-    height: 320px;
+    height: 360px;
   }
+
  
-}
-@media screen and (max-width: 1000px) {
-  .body{
-    background-image: radial-gradient(  rgb(95, 190, 237), #b662c4);
-  }
- 
-  .flex-container {
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .responsive{
-    height: 320px;
-  }
 }

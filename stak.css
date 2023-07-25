@@ -153,7 +153,10 @@ padding: 0px;
 
 
 }
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
+  h2{
+    font-size: 20px;
+  }
   .flex-container {
     flex-direction: column;
     justify-content: center;
@@ -170,10 +173,13 @@ padding: 0px;
   }
   .flex-container3  {
     flex-direction: column;
+   
   
   }
   .flex-container3>div{
-    width: 100%;
+   
+    margin: 1px;
+    width: fit-content;
   }
 .responsive {
   width: 100%;
