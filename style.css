@@ -124,6 +124,16 @@ font-size: 25px;
 
 color:rgb(97, 23, 158);
 }
+@media (max-width: 800px) {
+ 
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .responsive{
+    height: 320px;
+  }
 @media (max-width: 1300px) {
   .flex-container {
     flex-direction: row;
@@ -143,28 +153,8 @@ color:rgb(97, 23, 158);
 
 }
 
-@media (max-width: 800px) {
- 
-  .flex-container {
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .responsive{
-    height: 320px;
-  }
+
  
 }
 
-@media (max-width: 400px) {
- 
-  .flex-container {
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .responsive{
-    height: 320px;
-  }
- 
-}
+
