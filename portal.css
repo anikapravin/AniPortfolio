@@ -22,7 +22,7 @@ h2{
   font-weight: lighter;
 margin-left: 5px;
   margin-top: 0px;
-  font-size: 20px;
+  font-size: 16px;
  text-align: left;
 color:rgb(255, 255, 255);  
 }
@@ -133,11 +133,52 @@ margin: 2px;
       background-color: rgba(66, 157, 237, 0.312);
     } 
 
-@media (max-width: 1000px) {
+
+    @media screen and (max-width: 1400px) {
   .flex-container {
     flex-direction: column;
    
   }
+ .logo{
+
+  height:100px;
+ }
+  .flex-container1 {
+    flex-direction: wrap;
+   
+  }
+  .flex-container1>div{
+    width: 100%;
+    margin: 2px;
+    padding: 2%;
+  }
+  .flex-container2  {
+    flex-direction: wrap;
+  }
+  .flex-container3  {
+    flex-direction: wrap;
+  }
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.responsive2 {
+  width: 50%;
+  height: auto;
+}
+.video{
+  width: 800px;
+}
+
+
+}
+@media screen and (max-width: 1000px){
+  .flex-container {
+    flex-direction: column;
+    
+   
+  }
+
  .logo{
 
   height:100px;
@@ -148,7 +189,10 @@ margin: 2px;
   }
   .flex-container1>div{
 
-    margin: 2px;
+      width: 100%;
+ 
+    
+    margin: 1px;
     padding: 0px;
   }
   .flex-container2  {
@@ -165,40 +209,14 @@ margin: 2px;
   width: 50%;
   height: auto;
 }
-}
+
 .hoverbtn:hover{
   background-color: rgba(66, 157, 237, 0.312);
 }
-@media (max-width: 1400px) {
-  .flex-container {
-    flex-direction: column;
-   
-  }
- .logo{
-
-  height:100px;
- }
-  .flex-container1 {
-    flex-direction: wrap;
-   
-  }
-  .flex-container1>div{
-
-    margin: 2px;
-    padding: 0px;
-  }
-  .flex-container2  {
-    flex-direction: wrap;
-  }
-  .flex-container3  {
-    flex-direction: wrap;
-  }
-.responsive {
-  width: 100%;
-  height: auto;
+.video{
+  width: 500px;
 }
-.responsive2 {
-  width: 50%;
-  height: auto;
-}
+.ind{
+  height: 50px;
+  }
 }

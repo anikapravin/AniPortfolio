@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" type="text/css" href="rns.css">
@@ -32,7 +34,10 @@
 
 </div>
 <div class="flex-container">
-  <div><img class="responsive" src="seasalt1 (1) (1) (1).gif" height="600px"></div>
+  <div class="parent">
+    <img class="image1" src="compressed.gif" height="600px"/>
+    <img class="image2" src="bodywash1.png" height="600px" />
+  </div>
  <div><img class="responsive" src="bottles.jpg" height="600px"></div>
 
 </div>
@@ -43,23 +48,15 @@
   </div>
  
 
-       
-  
-  
-  
-
-
-
-
 </body>
 <footer>
-  <div class="hoverbtn1"><a href="index.html"><img  src="backbtn.png" height="90px"></a></div>
-  <div class="hoverbtn"><a href="mystic.html"><img  src="nextbtn.png" height="90px"></a></div>
+  <div class="hoverbtn1"><a href="index.html"><img class="ind" src="backbtn.png" height="80px"></a></div>
+  <div class="hoverbtn"><a href="play.html"><img class="ind" src="nextbtn.png" height="80px"></a></div>
 </footer>
 <script>
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".hoverbtn",{ scrollTrigger:{ trigger: ".hoverbtn", }
-, duration:5,  x: '50vw',
-  ease:"back",delay:1});
+    , duration:2,  x: "7vw",
+      ease:"back",delay:1});
 </script>

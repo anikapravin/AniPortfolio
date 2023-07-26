@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head>
+<head> <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" type="text/css" href="portal.css">
@@ -34,15 +35,14 @@
   <h3><span style="font-size: 24px; font-family: canto; color: greenyellow;">Tree of Life - </span> Screen recorded Walkthrough of Immersive Experience</span></h3>
 </div>
   <div>
-  <video class="responsive" height="500px" controls margin:5px >
-    <source src="video2.mp4">
- Your browser does not support the video tag.
-  </video>
+  
+    <iframe class="video" height="560px" width="1000px" controls margin:5px src="https://www.youtube.com/embed/UOEM8xIUxgo" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  
 </div>
 <div>
     <h2>
-      "Tree of Life", an ode to Bangalore's seasonal flora. Travel back in time to the room of the "Lalbagh Man" in the 1920s.
-      He was one of the many men that were commissioned by the Mysuru king Nalwadi Krishnaraja Wadiyar to plan and design the landscaping of Lalbagh and Bangalore as a whole. They are the reason why Bangalore blooms in colour pockets at different times of the year. bright pink Tabebuia Rosea in some areas and red Gulmohar in others. This room is our representation of their office in Lalbagh as historically accurate as possible with a tree of life in the centre representing the seasonal trees of Bangalore that bring us so much joy with their vibrant colours.
+       Tree of Life - An ode to Bangalore's seasonal flora. Travel back in time to the room of the "Lalbagh Man" in the 1920s.
+      He was one of the many men that were commissioned by the Mysuru king Nalwadi Krishnaraja Wadiyar to plan and design the landscaping of Lalbagh and Bangalore as a whole. They are the reason why Bangalore blooms in colour pockets at different times of the year. Bright pink Tabebuia Rosea in some areas and red Gulmohar in others. This room is a representation of their office in Lalbagh as historically accurate as possible with a tree of life in the centre representing the seasonal trees of Bangalore that bring us so much joy with their vibrant colours.
  </h2>
   </div>
   </div>
@@ -72,13 +72,13 @@
 
 </body>
 <footer>
-  <div class="hoverbtn1"><a href="index.html"><img  src="backbtn.png" height="90px"></a></div>
-  <div class="hoverbtn"><a href="rns.html"><img  src="nextbtn.png" height="90px"></a></div>
+  <div class="hoverbtn1"><a href="index.html"><img class="ind" src="backbtn.png" height="80px"></a></div>
+  <div class="hoverbtn"><a href="play.html"><img class="ind" src="nextbtn.png" height="80px"></a></div>
 </footer>
 <script>
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".hoverbtn",{ scrollTrigger:{ trigger: ".hoverbtn", }
-, duration:5,  x: '50vw',
-  ease:"back",delay:1});
+    , duration:2,  x: "7vw",
+      ease:"back",delay:1});
 </script>

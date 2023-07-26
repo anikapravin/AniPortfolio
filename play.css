@@ -44,13 +44,15 @@ align-items:center ;
     padding: 2%;
     margin: 1%;
 }
-@media (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
 
     .responsive{
       height: 400px;
       padding: 2%;
       margin: 1%;
     }
-    
+    .ind{
+      height: 50px;
+      }
     }
     

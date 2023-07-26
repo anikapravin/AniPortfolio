@@ -16,7 +16,7 @@ function windowResized(){
   
   function draw() {
    background(255,255,255,0);
-
+if (windowWidth>800){
   let x=255;
   
   
@@ -40,6 +40,6 @@ function windowResized(){
     
     }
    
-  
+}
   
   }
