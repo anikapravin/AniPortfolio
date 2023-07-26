@@ -15,7 +15,8 @@ function windowResized(){
   
   
   function draw() {
-   background(255,255,255,0);
+      if (windowWidth>800)
+      {   background(255,255,255,0);
 
   let x=255;
   
@@ -36,7 +37,7 @@ function windowResized(){
       rotateX(frameCount/1000);  
       rotateY(frameCount/1000);
   
-      
+    }
     
     }
    
