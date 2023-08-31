@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="stak.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <h2><span style="color: brown; font-size: 28px;">Motion Posters </span> &nbsp; - &nbsp; Created for World Unity Day, based on the corruption of peace. </h2>
+<div class="flex-container-c">
+  <div>
+      <video class="responsive" height="580" controls muted autoplay loop >
+        <source src="Comp 2_1.mp4" >
+   
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <div>
+    <video class="responsive" height="580" controls muted autoplay loop >
+        <source src="Anika_MotionPoster_2.mp4" >
+   
+        Your browser does not support the video tag.
+      </video>
+  
+      </div>
+      <div>
+          <video class="responsive" height="580" controls muted autoplay loop >
+            <source src="olive poster_1.mp4" >
+       
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        </div>
+        
+      
+    </body>
+    <footer>
+      <div class="hoverbtn1"><a href="index.html"><img class="ind" src="backbtn.png" height="80px"></a></div>
+      <div class="hoverbtn"><a href="portal.html"><img class="ind" src="nextbtn.png" height="80px"></a></div>
+    </footer>
+      <script>
+      gsap.registerPlugin(ScrollTrigger);
+      
+     
+    gsap.to(".hoverbtn",{ scrollTrigger:{ trigger: ".hoverbtn", }
+      , duration:2,  x: "7vw",
+        ease:"back",delay:1});
+      </script>
