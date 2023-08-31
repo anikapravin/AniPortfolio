@@ -131,6 +131,16 @@ justify-content: space-around;
    
    
 }
+.flex-container-c{
+  display: flex;
+
+justify-content: space-around;
+flex-wrap: wrap;
+  flex-direction: row;
+
+ 
+ 
+}
 .flex-container3>div{
 margin: 2px;
 padding: 3%;
