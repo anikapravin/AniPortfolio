@@ -62,23 +62,11 @@ color:rgb(97, 23, 158);
     
 
   }
-  .menu {
-    width: 25%;
-    float: left;
-  }
-  .main {
-    width: 75%;
-    float: right;
-  }
-  .container:hover .middle {
-    opacity: 1;
-  }
-  
-  
+
 .flex-container{
     display: flex;
 justify-content: right;
-margin-top: 2%;
+
 padding: 2px;
 
 
@@ -87,12 +75,7 @@ padding: 2px;
 }
 
 
-.flex-container > div {
-    border-color: white;
- 
 
-    
-  }
 
 
 
@@ -153,7 +136,7 @@ color:rgb(97, 23, 158);
 @media screen and (max-width: 1300px) {
   .flex-container {
      
-   justify-content: safe;
+justify-content: safe;
    
   }
 .flex-container>div{
