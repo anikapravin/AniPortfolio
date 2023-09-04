@@ -36,7 +36,7 @@ let x=255;
     //stroke(226,94,250);
     stroke(96,227,247);
   torus(mouseX,windowHeight,5);
-text ("HI",0,0);
+
    
     rotateX(frameCount/1000);  
     rotateY(frameCount/1000);
