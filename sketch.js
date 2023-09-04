@@ -5,10 +5,11 @@ function windowResized(){
 
 
 function setup() {
+  
     let m;
 let x = 0;
 var canvas;
- canvas= createCanvas(windowWidth/3, windowHeight, WEBGL);
+ canvas= createCanvas(windowWidth/3.3, windowHeight, WEBGL);
 canvas.position(0,0);
 canvas.style('z-index','-1');
 
@@ -32,9 +33,11 @@ let x=255;
   for(let i=1;i<3;i++){
  
     
-   noFill();
+
     //stroke(226,94,250);
-    stroke(96,227,247);
+   stroke(96,227,247);
+
+    noFill();
   torus(mouseX,windowHeight,5);
 
    
