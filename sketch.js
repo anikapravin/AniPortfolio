@@ -18,16 +18,15 @@ canvas.style('z-index','-1');
 
 
 function draw() {
-
+  background(135,156,221);
     if (windowWidth>800)
-    {   background(255,255,255,0);
+    {   
 
 let x=255;
-
-
+noFill();
   let i=1;
 
-  
+
  // translate(p5.Vector.fromAngle(millis() / 1000, 10));
 
   for(let i=1;i<3;i++){
@@ -36,8 +35,8 @@ let x=255;
 
     //stroke(226,94,250);
    stroke(96,227,247);
-
-    noFill();
+   strokeWeight(1);
+  
   torus(mouseX,windowHeight,5);
 
    
