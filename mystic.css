@@ -12,6 +12,7 @@ footer>div{
 .hoverbtn1:hover{
   background-color: rgba(66, 157, 237, 0.312);
 } 
+
 .flex-container{
     display: flex;
 
@@ -21,14 +22,25 @@ align-items: center;
 }
 .flex-container1{
   display: flex;
-padding: 2%;
+
 justify-content: space-evenly;
 align-items: center;
 
   flex-direction: row;
 }
 .flex-container1>div{
-
+  
+  margin: 1%;
+}
+.flex-container3{
+  display: flex;
+justify-content: space-evenly;
+align-items: center;
+  flex-direction: row;
+  margin: 0.5%;
+}
+.flex-container3>div{
+padding: 4%;
   margin: 1%;
 }
 .flex-container2{
@@ -42,6 +54,7 @@ justify-content: space-evenly;
 
   margin: 1%;
 }
+
 h1{
     display:block;
     font-family:canto ;
@@ -60,6 +73,7 @@ color:rgb(34, 18, 214);
 
   }
   h2{
+ 
     display:block;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 font-weight: 200;
@@ -92,12 +106,19 @@ color:black(255, 255, 255);
   .flex-container1 {
     flex-direction: column;
   }
+  .flex-container3 {
+    flex-direction: column;
+  }
   .flex-container2 {
     flex-direction: column;
   }
 
 .responsive {
   width: 100%;
+  height: auto;
+}
+.responsive2 {
+  width: 70%;
   height: auto;
 }
 .video{

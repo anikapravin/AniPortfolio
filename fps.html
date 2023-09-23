@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="fps.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <meta charset="utf-8" />
+</head>
+<body>
+  <div>
+    <h1><span style="font-size: 45px;">Stylised FPS UI</span></h1>
+ 
+</div>
+
+
+<div class="flex-container">
+  <div><img class="responsive" src="Artboard 12mood.png" height="400px"></div>
+  <div><h5> &#128204; This project aims to revamp the weapons inventory user interface of a mobile shooter game to embrace a cyberpunk grunge aesthetic. This aesthetic combines futuristic technology with a worn, gritty, and dystopian atmosphere, creating an immersive experience for players.<br><br>
+    &#128295; The themed interface is maintained throughout, with distressed textures, graffiti-like markings, and rusty accents. The user can navigate through the inventory and explore various actions related to each weapon. <br><br>
+    <span style="font-size: 10px;">Themed background images from Unsplash</span>
+  </h5></div>
+ </div>
+
+<div class="flex-container1">
+  <div><img class="responsive" src="Artboard 9SKIN.png" height="250px"></div>
+  <div><img class="responsive" src="Artboard 10SKIN.png" height="250px"></div>
+  <div><img class="responsive" src="Artboard 11SKIN.png" height="250px"></div>
+
+
+ </div>
+    <div class="flex-container2">
+        <div><img class="responsive" src="wf1.png" height="150px"></div>
+        <div><img class="responsive" src="wf2.png" height="150px"></div>
+        <div><img class="responsive" src="wf3.png" height="150px"></div>
+       </div>
+       <div class="flex-container2">
+        <div><img class="responsive" src="wf4.png" height="150px"></div>
+        <div><img class="responsive" src="wf5.jpg" height="150px"></div>
+     
+
+       </div>
+       <div class="flex-container">
+        <div><img class="responsive" src="Artboard 1SKIN.jpg" height="250px"></div>
+        <div><img class="responsive" src="Artboard 2SKIN.jpg" height="250px"></div>
+      
+       </div>
+       <div class="flex-container">
+
+        <div><img class="responsive" src="Artboard 3SKIN.png" height="250px"></div>
+        <div><img class="responsive" src="Artboard 4SKIN.png" height="250px"></div>
+       </div>
+       <div class="flex-container">
+
+        <div><img class="responsive" src="Artboard 5SKIN.png" height="250px"></div>
+        <div><img class="responsive" src="Artboard 6SKIN.jpg" height="250px"></div>
+       </div>
+       <div class="flex-container1">
+        <video class="responsive" height="450" type="video/mp4" controls muted autoplay loop >
+            <source src="phone REC.mp4" >
+        
+            Your browser does not support the video tag.
+          </video>
+        </div>
+</body>
+<footer>
+  <div class="hoverbtn1"><a href="index.html"><img class="ind" src="backbtn.png" height="80px"></a></div>
+  <div class="hoverbtn"><a href="portal.html"><img class="ind" src="nextbtn.png" height="80px"></a></div>
+</footer>
+<script>
+ 
+  gsap.to(".flex-container3",{ scrollTrigger:{ trigger: ".flex-container3", toggleActions: "restart none none none",}
+  , duration:2, y:-30, opacity:1,ease:"back"});
+
+  gsap.to(".hoverbtn",{ scrollTrigger:{ trigger: ".hoverbtn", }
+    , duration:2,  x: "7vw",
+      ease:"back",delay:1});
+</script>
