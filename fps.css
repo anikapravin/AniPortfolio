@@ -135,7 +135,9 @@ footer{
     width: 70%;
     height: auto;
   }
-  
+  .ind{
+    height: 50px;
+    }
     
 
 }
