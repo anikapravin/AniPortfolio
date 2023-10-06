@@ -170,13 +170,17 @@ justify-content: safe;
 @media screen and (max-width: 800px){
  
   .flex-container {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
+align-items: center;
+
+    
   }
+
   .responsive{
     width: 60vw;
     height: auto;
+    
   }
   .responsive3{
     width: 70vw;
