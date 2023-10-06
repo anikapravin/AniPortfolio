@@ -18,9 +18,10 @@ canvas.style('z-index','-1');
 
 
 function draw() {
+  if (windowWidth>800)
+  {   
   background(135,156,221);
-    if (windowWidth>800)
-    {   
+   
 
 let x=255;
 noFill();

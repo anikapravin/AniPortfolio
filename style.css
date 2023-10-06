@@ -175,12 +175,15 @@ justify-content: safe;
     flex-wrap: wrap;
   }
   .responsive{
-    height: 360px;
+    width: 60vw;
+    height: auto;
   }
   .responsive3{
-    height: 300px;
+    width: 70vw;
+    height: auto;
   }
-  .responsive2{
-    height: 300px;
+  .responsive3{
+    width: 70vw;
+    height: auto;
   }
 }
