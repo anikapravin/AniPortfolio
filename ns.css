@@ -1,0 +1,197 @@
+body {
+	/*background: radial-gradient(  #79eede, #bfe7f1);
+	background-size: 200% 200%;
+	animation: gradient 15s ease infinite;*/
+  background-color: black;
+	height: 100vh;
+  margin: 0px;
+  padding: 0px;
+   
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.image2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+ 
+}
+footer{
+  background-color:white;
+  display: flex;
+  flex-direction: row;
+}
+footer>div{
+  padding: 1%;
+}
+.hoverbtn:hover{
+  background-color: rgba(66, 157, 237, 0.312);
+} 
+.hoverbtn1:hover{
+  background-color: rgba(66, 157, 237, 0.312);
+} 
+h2{
+    display:block;
+    font-family: canela;
+  font-size: 15px;
+  font-weight: 50;
+line-height: 32px;
+  padding: 3%;
+ text-align: left;
+color:#0d9188;
+
+}
+h4{
+  display:block;
+  font-family: canela;
+font-size: 15px;
+font-weight: 50;
+line-height: 32px;
+padding: 3%;
+padding-top: 0px;
+text-align: left;
+color:white;
+
+}
+h3{
+  display:block;
+  font-family: canela;
+font-size: 28px;
+font-weight: 50;
+
+padding: 3%;
+padding-bottom: 0px;
+text-align: left;
+color:white;
+
+}
+h5{
+  display:block;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 18px;
+font-weight: 200;
+
+
+padding-bottom: 0px;
+text-align: left;
+color:#041e1c;
+
+}
+h1{
+    display:block;
+    font-family:canela ;
+  font-weight: 50;
+
+
+  font-size: 20px;
+ text-align: left;
+color:rgb(5, 70, 91);
+}
+@font-face {
+    font-family: canela;
+    src: url(canela.ttf);
+    
+
+  }
+.flex-container{
+    display: flex;
+width: 100vw;
+justify-content: center;
+
+
+    flex-direction: row;
+
+   
+   
+}
+.flex-container>div{
+    margin: 2%;
+padding: 0px;
+
+}
+.flex-container1{
+  display: flex;
+  justify-content: center;
+
+
+  flex-direction: column;
+
+ 
+ 
+}
+.flex-container1>div{
+padding: 2%;
+margin: 2%;
+justify-content: center;
+
+}
+.text{
+padding: 2%;
+margin: 2%;
+justify-self: center;
+}
+
+
+@media screen and (max-width: 1300px) {
+  .flex-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+   
+
+  }
+  .flex-container>div{
+    width: 100%;
+
+  }
+  .responsive {
+    width: 80%;
+    height: auto;
+    margin: 2%;
+  }
+ 
+ 
+}
+
+@media screen and (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+margin: 0px;
+   
+
+  }
+  .flex-container>div{
+    width: 100%;
+
+  }
+  .responsive {
+    width: 100%;
+    height: auto;
+
+  }
+  .image1 {
+    width: 100%;
+    height: auto;
+
+  }
+  .image2 {
+    width: 100%;
+    height: auto;
+
+  }
+  .ind{
+    height: 50px;
+    }
+}
