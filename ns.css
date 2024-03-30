@@ -165,10 +165,11 @@ justify-self: center;
  
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .flex-container {
     flex-direction: column;
 margin: 0px;
+width: 100%;
    
 
   }
